@@ -56,7 +56,7 @@ const Home: NextPage = () => {
 						</svg>
 						<div className='relative mx-auto max-w-prose text-base lg:max-w-none'>
 							<figure>
-								<div className='aspect-w-12 aspect-h-7 lg:aspect-none'>
+								<div className='aspect-w-12 lg:aspect-none'>
 									<Image
 										className='rounded-lg object-cover object-center shadow-lg'
 										src='https://images.unsplash.com/photo-1546913199-55e06682967e?ixlib=rb-1.2.1&auto=format&fit=crop&crop=focalpoint&fp-x=.735&fp-y=.55&w=1184&h=1376&q=80'
