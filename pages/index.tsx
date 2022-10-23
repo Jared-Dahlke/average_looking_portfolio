@@ -5,7 +5,7 @@ import { TeamSection } from '../components/TeamSection'
 import { Testimonial } from '../components/Testimonial'
 import { Footer } from '../components/Footer'
 import { Incentive } from '../components/Incentive'
-
+import Image from 'next/image'
 const Home: NextPage = () => {
 	return (
 		<div className='overflow-hidden bg-white'>
@@ -57,7 +57,7 @@ const Home: NextPage = () => {
 						<div className='relative mx-auto max-w-prose text-base lg:max-w-none'>
 							<figure>
 								<div className='aspect-w-12 aspect-h-7 lg:aspect-none'>
-									<img
+									<Image
 										className='rounded-lg object-cover object-center shadow-lg'
 										src='https://images.unsplash.com/photo-1546913199-55e06682967e?ixlib=rb-1.2.1&auto=format&fit=crop&crop=focalpoint&fp-x=.735&fp-y=.55&w=1184&h=1376&q=80'
 										alt='Whitney leaning against a railing on a downtown street'

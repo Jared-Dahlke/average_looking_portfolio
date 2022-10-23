@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 const navigation = {
 	solutions: [
@@ -99,8 +100,9 @@ export function Footer() {
 			<div className='mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:py-16 lg:px-8'>
 				<div className='xl:grid xl:grid-cols-3 xl:gap-8'>
 					<div className='space-y-8 xl:col-span-1'>
-						<img
-							className='h-10'
+						<Image
+							height={40}
+							width={40}
 							src='https://tailwindui.com/img/logos/mark.svg?color=gray&shade=300'
 							alt='Company name'
 						/>

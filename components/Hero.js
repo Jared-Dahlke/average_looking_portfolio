@@ -3,6 +3,7 @@ import { Popover, Transition } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { SlideOver } from './SlideOver'
 import React from 'react'
+import Image from 'next/image'
 
 const navigation = [
 	{ name: 'Product', href: '#' },
@@ -92,10 +93,12 @@ export default function Hero() {
 								<div className='flex w-full items-center justify-between md:w-auto'>
 									<a href='#'>
 										<span className='sr-only'>Your Company</span>
-										<img
-											className='h-8 w-auto sm:h-10'
+										<Image
+											height={32}
+											width={47}
+											//className='h-8 w-auto sm:h-10'
 											src='https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600'
-											alt=''
+											//alt=''
 										/>
 									</a>
 									<div className='-mr-2 flex items-center md:hidden'>
@@ -142,7 +145,9 @@ export default function Hero() {
 							<div className='overflow-hidden rounded-lg bg-white shadow-md ring-1 ring-black ring-opacity-5'>
 								<div className='flex items-center justify-between px-5 pt-4'>
 									<div>
-										<img
+										<Image
+											height={32}
+											width={47}
 											className='h-8 w-auto'
 											src='https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600'
 											alt=''

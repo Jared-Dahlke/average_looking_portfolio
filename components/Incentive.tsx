@@ -1,3 +1,4 @@
+import Image from 'next/image'
 const incentives = [
 	{
 		name: 'Available Immediately',
@@ -31,7 +32,9 @@ export function Incentive() {
 							className='text-center sm:flex sm:text-left lg:block lg:text-center'>
 							<div className='sm:flex-shrink-0'>
 								<div className='flow-root'>
-									<img
+									<Image
+										height={94}
+										width={112}
 										className='mx-auto h-24 w-28'
 										src={incentive.imageSrc}
 										alt=''
