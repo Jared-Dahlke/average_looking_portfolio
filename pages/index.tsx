@@ -70,7 +70,9 @@ const Home: NextPage = () => {
 										className='h-5 w-5 flex-none text-gray-400'
 										aria-hidden='true'
 									/>
-									<span className='ml-2'>Photograph by Marcus O’Leary</span>
+									<span className='ml-2'>
+										Photograph by Marcus O&apos;Leary
+									</span>
 								</figcaption>
 							</figure>
 						</div>
@@ -79,9 +81,9 @@ const Home: NextPage = () => {
 						<div className='mx-auto max-w-prose text-base lg:max-w-none'>
 							<p className='text-lg text-gray-500'>
 								Wow this is a great looking about me section. But ok ok I must
-								admit, this picture is not of me, it's just a random picture
-								from the tailwind site. I guess it's a good time to tell you, I
-								made this site using Next and Tailwind.
+								admit, this picture is not of me, it&apos;s just a random
+								picture from the tailwind site. I guess it&apos;s a good time to
+								tell you, I made this site using Next and Tailwind.
 							</p>
 						</div>
 						<div className='prose prose-indigo mx-auto mt-5 text-gray-500 lg:col-start-1 lg:row-start-1 lg:max-w-none'>
