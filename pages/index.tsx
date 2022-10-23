@@ -3,11 +3,14 @@ import { CameraIcon } from '@heroicons/react/20/solid'
 import Hero from '../components/Hero'
 import { TeamSection } from '../components/TeamSection'
 import { Testimonial } from '../components/Testimonial'
+import { Footer } from '../components/Footer'
+import { Incentive } from '../components/Incentive'
 
 const Home: NextPage = () => {
 	return (
 		<div className='overflow-hidden bg-white'>
 			<Hero />
+			<Incentive />
 			<div className='relative mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8'>
 				<div className='absolute top-0 bottom-0 left-3/4 hidden w-screen bg-gray-50 lg:block' />
 				<div className='mx-auto max-w-prose text-base lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-8'>
@@ -130,6 +133,7 @@ const Home: NextPage = () => {
 
 			<TeamSection />
 			<Testimonial />
+			<Footer />
 		</div>
 	)
 }

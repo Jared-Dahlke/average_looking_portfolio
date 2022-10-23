@@ -1,6 +1,8 @@
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import { SlideOver } from './SlideOver'
+import React from 'react'
 
 const navigation = [
 	{ name: 'Product', href: '#' },
@@ -10,6 +12,7 @@ const navigation = [
 ]
 
 export default function Hero() {
+	const [open, setOpen] = React.useState(true)
 	return (
 		<div className='relative overflow-hidden bg-gray-50'>
 			<div
@@ -190,10 +193,27 @@ export default function Hero() {
 							skills. Still not convinced? Scroll down to see mind blowing
 							components I copied from Tailwind
 						</p>
-						<div className='mx-auto mt-5 max-w-md sm:flex sm:justify-center md:mt-8'></div>
+						<div className='mx-auto mt-5 max-w-md sm:flex sm:justify-center md:mt-8'>
+							<div className='rounded-md shadow'>
+								<a
+									onClick={() => setOpen(true)}
+									href='#'
+									className='flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 md:py-4 md:px-10 md:text-lg'>
+									Hire Me
+								</a>
+							</div>
+							<div className='mt-3 rounded-md shadow sm:mt-0 sm:ml-3'>
+								<a
+									href='#'
+									className='flex w-full items-center justify-center rounded-md border border-transparent bg-white px-8 py-3 text-base font-medium text-indigo-600 hover:bg-gray-50 md:py-4 md:px-10 md:text-lg'>
+									Have fun staying poor
+								</a>
+							</div>
+						</div>
 					</div>
 				</main>
 			</div>
+			<SlideOver open={open} setOpen={setOpen} />
 		</div>
 	)
 }
