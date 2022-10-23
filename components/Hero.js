@@ -13,7 +13,7 @@ const navigation = [
 ]
 
 export default function Hero() {
-	const [open, setOpen] = React.useState(true)
+	const [open, setOpen] = React.useState(false)
 	return (
 		<div className='relative overflow-hidden bg-gray-50'>
 			<div
