@@ -191,10 +191,7 @@ export default function Hero() {
 						<p className='mx-auto mt-3 max-w-md text-base text-gray-500 sm:text-lg md:mt-5 md:max-w-3xl md:text-xl'>
 							Hi! I am an ok software developer. Most of the work I do is for
 							private companies, so I built this site to show off some of my
-							<span className='block text-indigo-600 xl:inline'>
-								{' '}
-								very average{' '}
-							</span>
+							<span className='text-indigo-600 xl:inline'> very average </span>
 							skills. Still not convinced? Scroll down to see mind blowing
 							components I copied from Tailwind
 						</p>

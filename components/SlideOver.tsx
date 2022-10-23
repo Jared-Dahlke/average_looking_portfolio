@@ -59,7 +59,9 @@ export function SlideOver({ open, setOpen }: IProps) {
 																	height={192}
 																	width={192}
 																	className='h-24 w-24 flex-shrink-0 sm:h-40 sm:w-40 lg:h-48 lg:w-48'
-																	src={'/../public/mepic.jpeg'}
+																	src={
+																		'https://i.ibb.co/yYFRHtp/240-E1-B5-E-0-D1-E-4407-836-B-35-C7-DEA562-F1.jpg'
+																	}
 																	alt=''
 																/>
 															</div>
@@ -87,14 +89,6 @@ export function SlideOver({ open, setOpen }: IProps) {
 												<dl className='space-y-8 sm:space-y-0 sm:divide-y sm:divide-gray-200'>
 													<div className='sm:flex sm:px-6 sm:py-5'>
 														<dt className='text-sm font-medium text-gray-500 sm:w-40 sm:flex-shrink-0 lg:w-48'>
-															Bio
-														</dt>
-														<dd className='mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0 sm:ml-6'>
-															<p>An ok website developer</p>
-														</dd>
-													</div>
-													<div className='sm:flex sm:px-6 sm:py-5'>
-														<dt className='text-sm font-medium text-gray-500 sm:w-40 sm:flex-shrink-0 lg:w-48'>
 															Location
 														</dt>
 														<dd className='mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0 sm:ml-6'>
@@ -107,14 +101,6 @@ export function SlideOver({ open, setOpen }: IProps) {
 														</dt>
 														<dd className='mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0 sm:ml-6'>
 															jared.dahlke@gmail.com
-														</dd>
-													</div>
-													<div className='sm:flex sm:px-6 sm:py-5'>
-														<dt className='text-sm font-medium text-gray-500 sm:w-40 sm:flex-shrink-0 lg:w-48'>
-															Birthday
-														</dt>
-														<dd className='mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0 sm:ml-6'>
-															<time dateTime='1982-06-23'>June 23, 1982</time>
 														</dd>
 													</div>
 												</dl>
