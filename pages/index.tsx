@@ -89,13 +89,13 @@ const Home: NextPage = () => {
 						<div className='prose prose-indigo mx-auto mt-5 text-gray-500 lg:col-start-1 lg:row-start-1 lg:max-w-none'>
 							<p>
 								Tailwind is a utility-first CSS framework packed with classes
-								like{' '}
+								like&nbsp;
 								<code className='bg-slate-200'>
 									flex, pt-4, text-center and rotate-90
-								</code>{' '}
-								that can be composed to build any design, directly in your
-								markup. It also has a thriving and robust ecosystem from which
-								to draw inspiration and leverage.
+								</code>
+								&nbsp; that can be composed to build any design, directly in
+								your markup. It also has a thriving and robust ecosystem from
+								which to draw inspiration and leverage.
 							</p>
 							<p>
 								I love making beautiful websites, but I also love building
@@ -107,7 +107,6 @@ const Home: NextPage = () => {
 									<a href='https://tanstack.com/query/v4'>React Query</a>
 								</li>
 								<li>
-									{' '}
 									<a href='https://tanstack.com/router/v4'>Tanstack Router</a>
 								</li>
 								<li>
@@ -119,8 +118,9 @@ const Home: NextPage = () => {
 							</ul>
 							<p>
 								The more I code, the more I appreciate simple, clean code, and
-								type safety. I never code without{' '}
-								<code className='bg-slate-200'>TypeScript</code> these days.
+								type safety. I never code without&nbsp;
+								<code className='bg-slate-200'>TypeScript</code>&nbsp;these
+								days.
 							</p>
 							<h3>Ok, but when are you going to show me the hard stuff...</h3>
 							<p>
