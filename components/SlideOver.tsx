@@ -3,9 +3,6 @@ import { Fragment } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import { XMarkIcon } from '@heroicons/react/24/outline'
 import Image from 'next/image'
-function classNames(...classes: any) {
-	return classes.filter(Boolean).join(' ')
-}
 
 interface IProps {
 	open: boolean

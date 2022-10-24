@@ -6,6 +6,9 @@ import { Testimonial } from '../components/Testimonial'
 import { Footer } from '../components/Footer'
 import { Incentive } from '../components/Incentive'
 import Image from 'next/image'
+import { MyTable } from '../components/Table'
+import { MyCalendar } from '../components/Calendar'
+import { Feature } from '../components/FeatureSection'
 const Home: NextPage = () => {
 	return (
 		<div className='overflow-hidden bg-white'>
@@ -122,12 +125,6 @@ const Home: NextPage = () => {
 								<code className='bg-slate-200'>TypeScript</code>&nbsp;these
 								days.
 							</p>
-							<h3>Ok, but when are you going to show me the hard stuff...</h3>
-							<p>
-								Well actually making a clean UI is not easy and takes a lot of
-								learning, but since you asked. Here are some pretty cool looking
-								components...
-							</p>
 						</div>
 					</div>
 				</div>
@@ -135,6 +132,9 @@ const Home: NextPage = () => {
 
 			<TeamSection />
 			<Testimonial />
+			<MyTable />
+			<MyCalendar />
+			<Feature />
 			<Footer />
 		</div>
 	)

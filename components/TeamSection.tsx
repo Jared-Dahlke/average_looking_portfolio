@@ -5,7 +5,7 @@ const pricing = {
 	tiers: [
 		{
 			title: 'Freelancer',
-			price: 24,
+			price: '2,000',
 			frequency: '/month',
 			description: 'The essentials to provide your best work for clients.',
 			features: [
@@ -19,7 +19,7 @@ const pricing = {
 		},
 		{
 			title: 'Startup',
-			price: 32,
+			price: '3,200',
 			frequency: '/month',
 			description: 'A plan that scales with your rapidly growing business.',
 			features: [
@@ -34,7 +34,7 @@ const pricing = {
 		},
 		{
 			title: 'Enterprise',
-			price: 48,
+			price: '4,800',
 			frequency: '/month',
 			description: 'Dedicated support and infrastructure for your company.',
 			features: [
@@ -59,11 +59,11 @@ export function TeamSection() {
 	return (
 		<div className='mx-auto max-w-7xl bg-white py-24 px-4 sm:px-6 lg:px-8'>
 			<h2 className='text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl sm:leading-none lg:text-6xl'>
-				Pricing plans for teams of all sizes
+				Look at this pricing plan
 			</h2>
 			<p className='mt-6 max-w-2xl text-xl text-gray-500'>
-				Unfortunately I don't have any subscription business ideas so this is
-				just a prototype, but look how cool it looks
+				You could make a ton of money if you hire me to build your site, here is
+				an example of a pricing plan. Look how cool this looks
 			</p>
 
 			{/* Tiers */}
