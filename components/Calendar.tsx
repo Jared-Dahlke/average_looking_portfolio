@@ -485,7 +485,7 @@ export function MyCalendar() {
 					</div>
 				</div>
 			</div>
-			{selectedDay?.events?.length > 0 && (
+			{selectedDay && selectedDay.events?.length > 0 && (
 				<div className='py-10 px-4 sm:px-6 lg:hidden'>
 					<ol className='divide-y divide-gray-100 overflow-hidden rounded-lg bg-white text-sm shadow ring-1 ring-black ring-opacity-5'>
 						{selectedDay?.events.map((event) => (
