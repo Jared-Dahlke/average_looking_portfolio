@@ -9,6 +9,7 @@ import Image from 'next/image'
 import { MyTable } from '../components/Table'
 import { MyCalendar } from '../components/Calendar'
 import { Feature } from '../components/FeatureSection'
+import { CallToAction } from '../components/CallToAction'
 const Home: NextPage = () => {
 	return (
 		<div className='overflow-hidden bg-white'>
@@ -19,6 +20,7 @@ const Home: NextPage = () => {
 			<MyTable />
 			<MyCalendar />
 			<Feature />
+			<CallToAction />
 			<Footer />
 		</div>
 	)
