@@ -94,8 +94,8 @@ export function Testimonial() {
 						<blockquote className='relative'>
 							<div className='text-2xl font-medium leading-9 text-gray-900'>
 								<p>
-									Jared is an ok developer. Most of the time he sufficiently
-									meets expectations...
+									Jared is a world class front end developer. Highly
+									recommended!
 								</p>
 							</div>
 							<footer className='mt-8'>

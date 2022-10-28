@@ -4,9 +4,9 @@ import { CheckIcon } from '@heroicons/react/24/outline'
 const pricing = {
 	tiers: [
 		{
-			title: 'Freelancer',
-			price: '2,000',
-			frequency: '/month',
+			title: 'Consulting',
+			price: '200',
+			frequency: '/hour',
 			description: 'The essentials to provide your best work for clients.',
 			features: [
 				'5 products',
@@ -59,11 +59,10 @@ export function TeamSection() {
 	return (
 		<div className='mx-auto max-w-7xl bg-white py-24 px-4 sm:px-6 lg:px-8'>
 			<h2 className='text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl sm:leading-none lg:text-6xl'>
-				Look at this pricing plan
+				Pricing plans
 			</h2>
 			<p className='mt-6 max-w-2xl text-xl text-gray-500'>
-				You could make a ton of money if you hire me to build your site, here is
-				an example of a pricing plan. Look how cool this looks
+				I have pricing plans available for different scopes
 			</p>
 
 			{/* Tiers */}
