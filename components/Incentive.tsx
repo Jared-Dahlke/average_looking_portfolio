@@ -1,21 +1,19 @@
 import Image from 'next/image'
 const incentives = [
 	{
-		name: 'Available Immediately',
-		description:
-			'Believe it or not, I can start building stuff for you right away.',
+		name: 'Boost your SEO',
+		description: 'I use Next.js and SSR which provides max SEO by default',
 		imageSrc:
 			'https://tailwindui.com/img/ecommerce/icons/icon-delivery-light.svg'
 	},
 	{
-		name: 'Really good at web development',
-		description: 'Wow, have you seen this site?  I am blown away.',
+		name: 'Complex or Simple apps',
+		description: 'I specialize in building complex apps.',
 		imageSrc: 'https://tailwindui.com/img/ecommerce/icons/icon-chat-light.svg'
 	},
 	{
-		name: 'Fast worker',
-		description:
-			"Look how fast that cart is going. What does this mean for the actual experience? I don't know.",
+		name: 'Great communication',
+		description: 'Communication is paramount to building a successful website',
 		imageSrc:
 			'https://tailwindui.com/img/ecommerce/icons/icon-fast-checkout-light.svg'
 	}
