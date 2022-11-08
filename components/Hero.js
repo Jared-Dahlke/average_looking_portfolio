@@ -192,7 +192,7 @@ export default function Hero() {
 							I consult and build websites for
 							<span className='text-indigo-600 xl:inline'> bitcoin</span>.
 							Scroll down to see some of my components and get a taste for my
-							work. Contact me at{' '}
+							work. This site is a work in progress. Contact me at{' '}
 							<span className='text-indigo-600 xl:inline'>
 								<a href='mailto:jared.dahlke@gmail.com'>
 									jared.dahlke@gmail.com
