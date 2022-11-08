@@ -61,11 +61,9 @@ export function MyTable() {
 		<div className='px-8 sm:px-6 lg:px-8 mt-32'>
 			<div className='sm:flex sm:items-center'>
 				<div className='sm:flex-auto'>
-					<h1 className='text-xl font-semibold text-gray-900'>
-						Other Candidates
-					</h1>
+					<h1 className='text-xl font-semibold text-gray-900'>People</h1>
 					<p className='mt-2 text-sm text-gray-700'>
-						A list of all the other candidates that are not as good as me
+						Here is an example of a table I can build
 					</p>
 				</div>
 				<div className='mt-4 sm:mt-0 sm:ml-16 sm:flex-none'>
