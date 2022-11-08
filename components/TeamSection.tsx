@@ -7,45 +7,42 @@ const pricing = {
 			title: 'Consulting',
 			price: '200',
 			frequency: '/hour',
-			description: 'The essentials to provide your best work for clients.',
+			description: `Need input on a technical design or anything React or UI related?`,
 			features: [
-				'5 products',
-				'Up to 1,000 subscribers',
-				'Basic analytics',
-				'48-hour support response time'
+				'One on one screen share meeting',
+				'Help with technical implementation',
+				'Help with UX problems',
+				'24-hour support response time'
 			],
-			cta: 'Monthly billing',
+			cta: 'Get started',
 			mostPopular: false
 		},
 		{
-			title: 'Startup',
-			price: '3,200',
-			frequency: '/month',
-			description: 'A plan that scales with your rapidly growing business.',
+			title: 'Landing Page',
+			price: '500',
+			frequency: '',
+			description: `Need a simple landing page? I can build and host it for you`,
 			features: [
-				'25 products',
-				'Up to 10,000 subscribers',
+				'New website or just a page',
+				'Hosting (additional monthly cost depending on requirements)',
 				'Advanced analytics',
-				'24-hour support response time',
-				'Marketing automations'
+				'24-hour support response time'
 			],
-			cta: 'Monthly billing',
+			cta: 'Get started',
 			mostPopular: true
 		},
 		{
-			title: 'Enterprise',
-			price: '4,800',
-			frequency: '/month',
-			description: 'Dedicated support and infrastructure for your company.',
+			title: 'Full website',
+			price: '500 - $10,000',
+			frequency: '',
+			description: 'Need an entire web app built?',
 			features: [
-				'Unlimited products',
-				'Unlimited subscribers',
+				'Build the site and host it, from beginning to end',
 				'Advanced analytics',
-				'1-hour, dedicated support response time',
 				'Marketing automations',
 				'Custom integrations'
 			],
-			cta: 'Monthly billing',
+			cta: 'Get started',
 			mostPopular: false
 		}
 	]
@@ -62,7 +59,8 @@ export function TeamSection() {
 				Pricing plans
 			</h2>
 			<p className='mt-6 max-w-2xl text-xl text-gray-500'>
-				I have pricing plans available for different scopes
+				Pricing for services that I offer. Satisfaction guaranteed, or your
+				money back.
 			</p>
 
 			{/* Tiers */}
