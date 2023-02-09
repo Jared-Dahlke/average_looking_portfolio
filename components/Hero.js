@@ -189,13 +189,12 @@ export default function Hero() {
 							</span>
 						</h1>
 						<p className='mx-auto mt-3 max-w-md text-base text-gray-500 sm:text-lg md:mt-5 md:max-w-3xl md:text-xl'>
-							I consult and build websites for
-							<span className='text-indigo-600 xl:inline'> bitcoin</span>.
-							Scroll down to see some of my components and get a taste for my
-							work. This site is a work in progress. Contact me at{' '}
+							This is an example website that I built just to showcase some of
+							my work. Most of this is leveraged from Tailwind components. This
+							site is a work in progress. Contact me at{' '}
 							<span className='text-indigo-600 xl:inline'>
 								<a href='mailto:jared.dahlke@gmail.com'>
-									jared.dahlke@gmail.com
+									jared.dahlke@protonmail.com
 								</a>
 							</span>{' '}
 						</p>
